@@ -1,0 +1,15 @@
+<html>
+<body>
+	<div ng-controller = "HomeCtrl as ctrl">
+
+		<form role="form">
+			<div class="form-group">
+				<!-- Form input is binded to HomeCtrl.gameModel.name -->
+				<input type="text" class="form-control" id="username" placeholder = 'Game Name' ng-model ="ctrl.gameModel.name">
+			</div>
+			<!-- on click, launches HomeCtrl.addGame() -->
+			<button ng-click ="ctrl.addGame()" type="submit" class="btn btn-default center-block">Submit</button>
+		</form>
+	</div>
+</body>
+</html>

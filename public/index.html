@@ -1,0 +1,27 @@
+<html ng-app = 'myApp'>
+<!-- bootstrap-->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+
+<head>
+	<title> Game Collector</title>
+</head>
+
+<body>
+
+	<div ng-view>
+        <!-- need ng-view directive for router to work and display views -->
+	</div>
+	
+    <!-- PARSE -->
+    <script src="//www.parsecdn.com/js/parse-1.6.2.min.js"></script>
+    <!-- Angular Specific -->
+	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.6/angular.min.js"></script>
+  	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.5/angular-route.min.js"></script>
+    <script src = "app.js"> </script>	
+	<!-- Controllers -->
+	<script src = "controllers/HomeCtrl.js"> </script>
+	<!-- Services -->
+	<script src = "services/GameService.js"> </script>
+	
+</body>
+</html>
