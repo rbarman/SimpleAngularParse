@@ -1,7 +1,0 @@
-{
-  "name": "GameTest",
-  "description": "Description for gameTest",
-  "dependencies": {
-    "express": "^4.2.0"
-  }
-}
